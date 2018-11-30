@@ -4,8 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
+  - Platformer
+  - Coin
   - Enemy
+  - Peluru
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - 
   - 
   - 
-  - Platform
+  - 
   - 
   - 
   - 
