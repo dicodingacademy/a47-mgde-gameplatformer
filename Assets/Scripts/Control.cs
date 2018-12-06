@@ -12,7 +12,7 @@ public class Control : MonoBehaviour
     public GameObject Projectile;
     public Vector2 projectileVelocity;
     public Vector2 projectileOffset;
-    public float cooldown = 1f;
+    public float cooldown = 0.5f;
     bool isCanShoot = true;
 
     // Use this for initialization
@@ -20,6 +20,7 @@ public class Control : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         isCanShoot = false;
+        EnemyController.EnemyKilled = 0;
     }
     // Update is called once per frame
     void Update()
@@ -71,6 +72,7 @@ public class Control : MonoBehaviour
         anim.SetTrigger("jump");
         anim.ResetTrigger("run");
         anim.ResetTrigger("idle");
+        anim.ResetTrigger("shoot");
         isJump = true;
     }
     public void MoveRight()
@@ -137,6 +139,7 @@ public class Control : MonoBehaviour
         {
             anim.ResetTrigger("jump");
             anim.ResetTrigger("run");
+            anim.ResetTrigger("shoot");
             anim.SetTrigger("idle");
         }
         idMove = 0;
@@ -171,12 +174,17 @@ public class Control : MonoBehaviour
             bullet.transform.localScale = scale * -1;
 
             StartCoroutine(CanShoot());
+            anim.SetTrigger("shoot");
         }
+
+       
     }
     IEnumerator CanShoot()
     {
+        anim.SetTrigger("shoot");
         isCanShoot = false;
         yield return new WaitForSeconds(cooldown);
         isCanShoot = true;
+       
     }
 }

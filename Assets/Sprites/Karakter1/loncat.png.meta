@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 05466c9894d3e7744b1d02fc31a588fa
+guid: bfb8ea21287e86441992c92a3fd66c0f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Button_0
-    21300002: Button_1
-    21300004: Button_2
+    21300000: loncat_0
+    21300002: loncat_1
+    21300004: loncat_2
+    21300006: loncat_3
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -87,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button_0
+      name: loncat_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 118
-        height: 123
+        width: 200
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -101,19 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14130f4b367db024baa5d602d8ce4e9a
+      spriteID: a24657baf56bcc44eaf4e458502dc32c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_1
+      name: loncat_1
       rect:
         serializedVersion: 2
-        x: 124
+        x: 200
         y: 0
-        width: 118
-        height: 123
+        width: 200
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,19 +122,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c3d99a92ae3d7540bacc54a2867d0e2
+      spriteID: 652d04e52eeefc34f918619c5e448938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_2
+      name: loncat_2
       rect:
         serializedVersion: 2
-        x: 251
+        x: 400
         y: 0
-        width: 118
-        height: 123
+        width: 200
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,7 +142,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2847b1b14ec22042bb41b3e4a8a2a62
+      spriteID: ee9b1f092e1c4c24d9ed07d8043b16f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loncat_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53b24cf0a06cb24c9c23e4a84afa25b
       vertices: []
       indices: 
       edges: []
@@ -149,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0a4dd7f46bb3c42499df151d45f04fcc
+    spriteID: 5001b37b9f4331440bded7932a2b5f1d
     vertices: []
     indices: 
     edges: []

@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour
     Animator anim;
     public int HP = 1;
     bool isDie = false;
-    int EnemyKilled = 0;
+    public static int EnemyKilled = 0;
 
     // Use this for initialization
     void Start()
@@ -104,6 +104,7 @@ public class EnemyController : MonoBehaviour
 
             if (EnemyKilled == 3)
             {
+                
                 SceneManager.LoadScene("GameOver");
             }
         }
