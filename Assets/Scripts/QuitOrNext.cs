@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
-public class QuitOrNext : MonoBehaviour
-{
-    public string NameScene = "Level 2";
+
+public class QuitOrNext : MonoBehaviour {
+
+    public string NameScene = "";
     private void Update()
     {
         if (Input.GetKeyUp(KeyCode.Escape))
@@ -12,7 +15,7 @@ public class QuitOrNext : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+
         if (collision.tag.Equals("Player"))
         {
             SceneManager.LoadScene(NameScene);

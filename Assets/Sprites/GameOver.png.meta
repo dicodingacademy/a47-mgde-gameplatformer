@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 246abdf6cfc99244cad9a6f443140df8
+guid: deb463209dab07543a7b51b69e9bc050
 TextureImporter:
   fileIDToRecycleName:
     21300000: GameOver_0
@@ -102,7 +102,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bdd262a5c9cb454f98d5729f0744e39
+      spriteID: 9048501019f1c7a4981e03afb479cdbf
       vertices: []
       indices: 
       edges: []
@@ -122,7 +122,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d9554ba901f5614fae622108f8dcf89
+      spriteID: d0e4b8dff6f1fc049976a18f7cf4be59
       vertices: []
       indices: 
       edges: []
@@ -142,7 +142,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c99bd577932095646bc7a59efd5fa090
+      spriteID: 8c1f1b2799f7766448c8b0e6eb9cf142
       vertices: []
       indices: 
       edges: []
@@ -162,7 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20e420c75a7ece8409ad7628e840e169
+      spriteID: 8f86b32f18dba49498cf26c4975a9d7f
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 998e5beb7c337f04aae7c130a3ed2089
+    spriteID: a4dc777c9ea398c4aa952bacce47d0c0
     vertices: []
     indices: 
     edges: []

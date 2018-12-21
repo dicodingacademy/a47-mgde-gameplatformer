@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 05466c9894d3e7744b1d02fc31a588fa
+guid: 5909d8a306407da45951ea7fdf10a7a4
 TextureImporter:
   fileIDToRecycleName:
     21300000: Button_0
@@ -101,7 +101,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14130f4b367db024baa5d602d8ce4e9a
+      spriteID: a42db8258bce15b45b08f0b8a67f4b52
       vertices: []
       indices: 
       edges: []
@@ -121,7 +121,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c3d99a92ae3d7540bacc54a2867d0e2
+      spriteID: e7823c9982961134e90d1938b42f68ea
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2847b1b14ec22042bb41b3e4a8a2a62
+      spriteID: b376360dcad60314f95418feb385b21c
       vertices: []
       indices: 
       edges: []
@@ -149,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0a4dd7f46bb3c42499df151d45f04fcc
+    spriteID: b394659a688c7f745aa393f6bfb567ce
     vertices: []
     indices: 
     edges: []

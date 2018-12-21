@@ -21,7 +21,7 @@ public class AutoReplay : MonoBehaviour
         {
             Data.score = 0;
             EnemyController.EnemyKilled = 0;
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene("Gampeplay");
         }
     }
 }

@@ -68,7 +68,7 @@ public class EnemyController : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Platformer"))
+        if (col.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
         }
@@ -76,7 +76,7 @@ public class EnemyController : MonoBehaviour
     //digunakan untuk mengecek apakah Player masih diatas tanah atau tidak
     void OnCollisionStay2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Platformer"))
+        if (col.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
         }
@@ -84,7 +84,7 @@ public class EnemyController : MonoBehaviour
     //digunakan untuk memberi tahu Player bahwa sudah tidak diatas tanah
     void OnCollisionExit2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Platformer"))
+        if (col.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
         }
@@ -104,8 +104,8 @@ public class EnemyController : MonoBehaviour
 
             if (EnemyKilled == 3)
             {
-                
-                SceneManager.LoadScene("GameOver");
+
+                SceneManager.LoadScene("Game Over");
             }
         }
     }

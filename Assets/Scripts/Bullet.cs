@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
- 
+
     // Use this for initialization
     void Start()
     {
-   
         Destroy(this.gameObject, 10);
     }
 
@@ -20,7 +19,7 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Player") && col.gameObject.CompareTag("Platformer"))
+        if (col.gameObject.CompareTag("Player") && col.gameObject.CompareTag("Ground"))
             Destroy(this.gameObject);
         if (col.gameObject.CompareTag("Enemy"))
         {
